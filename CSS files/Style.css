@@ -1,0 +1,47 @@
+/* Global Rules  */
+* {
+    box-sizing: border-box;
+}
+:root {
+    /* Colors  */
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Light-gray);
+}
+.container {
+    margin: 15px;
+    position: relative;
+}
+.card {
+    width: 300px;
+    height: 470px;
+    background-color: var(--White);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px hsl(220deg 15% 55% / 41%);
+}
+.card .container img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.card .container .text {
+  font-size: 11px;
+  text-align: center;
+}
+.card .container .text h1 {
+    color: var(--Dark-blue);
+}
+.card .container .text p {
+    color: var(--Grayish-blue);
+    margin: 0 10px;
+    font-size: 15px;
+}
