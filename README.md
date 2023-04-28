@@ -1,4 +1,4 @@
-# Front-End Mentor Challenge
+# QR Code Component
 
 Responsive Front-End Mentor Challenge Using Pure HTML + CSS
 
